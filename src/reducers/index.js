@@ -5,4 +5,8 @@ const rootReducer = combineReducers({
   books: BooksReducer
 });
 
+const denemeMAster = () => {
+        
+}
+
 export default rootReducer;
