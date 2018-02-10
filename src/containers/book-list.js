@@ -17,4 +17,8 @@ class BookList extends Component {
         )
     }
 
+    deneme() {
+        
+    }
+
 }
