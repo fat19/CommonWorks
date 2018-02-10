@@ -16,4 +16,9 @@ class BookList extends Component {
             </ul>
         )
     }
+
+    deneme() {
+        
+    }
+
 }
