@@ -7,7 +7,8 @@ import App from './components/app';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
-const deneme = 'Fatih';
+const deneme = null;
+const firstName = 'Fatih';
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
