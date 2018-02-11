@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        fatih altınnpm
+        <BookList />
       </div>
     );
   }
