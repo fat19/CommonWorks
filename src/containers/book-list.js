@@ -5,10 +5,14 @@ import { bindActionCreators} from 'redux';
 
 class BookList extends Component {
     renderList() {
-        console.log(this.props)
-       return this.props.books.map((book) => {
+        console.log(this.props) 
+        return this.props.books.map((book) => {
             return (
-                <li key={book.title} className="list-group-item"> {book.title} </li>
+                <li 
+                    key={book.title} 
+                    onClick= {() => this.props.selectBook(book)}
+                    className="list-group-item"> {book.title} 
+                </li>
             );
         })
     }
