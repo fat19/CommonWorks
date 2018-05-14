@@ -5,7 +5,6 @@ import { bindActionCreators} from 'redux';
 
 class BookList extends Component {
     renderList() {
-        console.log(this.props) 
         return this.props.books.map((book) => {
             return (
                 <li 
@@ -18,7 +17,6 @@ class BookList extends Component {
     }
 
     render() {
-        console.log(this.props.books)
         return(
             <ul className="list-group col-sm-4">
                 {this.renderList()}
@@ -28,7 +26,6 @@ class BookList extends Component {
 }
 
 function mapStateToProps(state) {
-    console.log(state);
     return {
         books: state.books
     }
