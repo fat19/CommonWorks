@@ -1,5 +1,10 @@
-# React Redux Kitap Uygulaması
+# Installing this app
 
-Basitçe kitap listesini yazdırma ve listedeki herhangi bir kitaba tıklandığında kitaba ait detaya gitme
+```
+> git clone https://github.com/fat19/React-Redux-Book-App.git
+> cd React-Redux-Book-App
+> npm install
+> npm start
+```
 
-
+### After these process, You can display app at http://localhost:8080/ 
